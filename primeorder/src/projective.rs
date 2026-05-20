@@ -285,7 +285,6 @@ where
         self.ct_eq(&Self::IDENTITY)
     }
 
-    #[must_use]
     fn double(&self) -> Self {
         Double::double(self)
     }
